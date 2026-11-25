@@ -2,7 +2,7 @@ body{
      font-family: "Heebo", sans-serif;
      margin: 0; 
      color: #21243D;
-     
+
 }
 
 nav{
@@ -103,3 +103,46 @@ H2{
     font-size: 16px;
 }
  
+#projects{
+    width: 1200px;
+    margin: auto;
+}
+
+.project{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}   
+
+.project-title{
+    font-weight: 700;
+    font-size: 30px;   
+    margin: 0 0 15px 0;
+}
+
+.date-type{
+    display: flex;
+    gap: 25px;
+}
+
+.project-date{
+    background-color: #142850;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 18px;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+}
+
+.project-type{
+    color: #8695A4;
+    font-size: 20px;
+}
+
+.project-description{
+    font-size: 16px;
+
+}
+
