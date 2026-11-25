@@ -85,6 +85,8 @@ h1{
 
 }
 
+/********* Blog **********/
+
 H2{
     font-weight: 400;
     font-size: 22px;
@@ -121,6 +123,11 @@ H2{
     font-size: 16px;
 }
  
+
+
+/****** PROJECTS *********/
+
+
 #projects{
     max-width: 1200px;
     padding-left: 20px;
@@ -166,6 +173,10 @@ H2{
     font-size: 16px;
 
 }
+
+
+/******** CONTACT ************/
+
 
 #contact {
     max-width: 1200px;
