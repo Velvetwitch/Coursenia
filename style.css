@@ -9,7 +9,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: 15px auto 0 auto;
 
 }   
@@ -29,7 +32,10 @@ nav{
 header{
 display: flex;
 justify-content: space-between;
-width: 1200px;
+max-width: 1200px;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
 margin: 75px auto;
 }
 
@@ -64,7 +70,10 @@ h1{
 }
 
 #blog-content{
-    width: 1200px; 
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
     margin: auto;
 
 }
@@ -86,6 +95,8 @@ H2{
     width: 543px;
     padding: 10px 20px;
     box-sizing: border-box;
+    max-width: 48%
+
 }
 
 .article-title{
@@ -104,7 +115,10 @@ H2{
 }
  
 #projects{
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -146,3 +160,119 @@ H2{
 
 }
 
+#contact {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#contact-content {
+    display: flex;
+    gap: 40px;
+}
+
+#coordonnees {
+    flex: 1;
+}
+
+.contact-title {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+#contact-intro {
+    font-size: 20px;
+}
+
+
+.contact-title-email {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#email {
+    font-size: 16px;
+}
+
+.contact-title-socials {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.social-link {
+    font-size: 16px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    font-size: 14px;
+}
+
+input, select, textarea {
+    background-color: #F7F7F7;
+    border: none;
+    height: 46px;
+}
+
+textarea#message {
+    height: 165px;
+}
+
+button{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 13px 246px;
+    border: none;
+    height: 56px;
+}
+
+#icons-social {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px 0 10px 0;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 14px; 
+    color: #21243D
+}
+
+
+@media (max-width: 700px) {
+
+    #articles{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+   .article-blog{
+        max-width: none;
+    }   
+
+
+    .date-category{
+        gap: 5px;
+    }
+
+
+    .project{
+        flex-direction: column;
+    }
+
+    .project-image{
+        width: 100%;
+    }
+
+    #coordonnees {
+        display: none;
+    }   
+} 
